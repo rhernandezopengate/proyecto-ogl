@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_A3F19C_OGModelStoreContainer" CdmEntityContainer="DB_A3F19C_OGEntities">
+    <EntitySetMapping Name="detordenproductoshd">
+      <EntityTypeMapping TypeName="DB_A3F19C_OGModel.detordenproductoshd">
+        <MappingFragment StoreEntitySet="detordenproductoshd">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Ordenes_Id" ColumnName="Ordenes_Id" />
+          <ScalarProperty Name="Skus_Id" ColumnName="Skus_Id" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
